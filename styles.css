@@ -1,0 +1,68 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.6;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit; /* Ensure consistent spacing across all elements */
+}
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 0.5rem; /* Reduce spacing */
+    padding: 0;
+}
+header nav ul li a, #theme-toggle {
+    color: white;
+    text-decoration: none;
+    background-color: #444;
+    padding: 0.5rem 1rem;
+    border: none;
+    cursor: pointer;
+}
+header nav ul li a:hover, #theme-toggle:hover {
+    background-color: #555;
+}
+.hero {
+    text-align: center;
+    padding: 1.5rem 1rem; /* Adjust padding */
+}
+.hero img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+.hero h2 {
+    margin-bottom: 0.5rem; /* Reduce spacing */
+}
+section {
+    padding: 1.5rem 1rem; /* Adjust spacing for consistency */
+}
+section h3 {
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #333;
+    padding-bottom: 0.5rem;
+}
+.project {
+    margin-bottom: 1rem; /* Reduce space between projects */
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0.5rem; /* Reduce footer padding */
+    position: relative; /* Adjust position
